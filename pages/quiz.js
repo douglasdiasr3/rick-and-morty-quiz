@@ -19,25 +19,17 @@ export const QuizContainer = styled.div`
   }
 `;
 
-export default function Home() {
+export default function Quiz() {
   return (
-    <QuizBackground backgroundImage={db.bg}>
+    <QuizBackground backgroundImage={db.bgQuizColega}>
       <QuizContainer>
-        <QuizLogo />
-        <Widget>
-          <Widget.Header>
-            <h1>{db.title}</h1>
-          </Widget.Header>
-          <Widget.Content>
-            <p>{db.description}</p>
-          </Widget.Content>
-        </Widget>
+        <QuizLogo />    
 
         <Widget>
           <Widget.Content>
-            <h1>Quizes da Galera</h1>
-
-            <p><a href="quiz" >Quiz do coleguinha</a></p>   
+            <h1>Quiz #1</h1>
+            <p>Em breve...</p>
+            <p><a href="/" >Voltar</a></p>
           </Widget.Content>
         </Widget>
         <Footer />
