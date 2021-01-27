@@ -1,12 +1,12 @@
-import { delBasePath } from 'next/dist/next-server/lib/router/router';
-import styled from 'styled-components'
-import db from '../db.json'
-import Widget from '../src/components/Widgets/index'
-import QuizBackground from '../src/components/QuizBackground/index'
-import Footer from '../src/components/Footer/index'
-import GitHubCorner from '../src/components/GitHubConer/index'
-import QuizLogo from '../src/components/QuizLogo/index'
-
+import React from 'react';
+import { useRouter } from 'next/router';
+import styled from 'styled-components';
+import db from '../db.json';
+import Widget from '../src/components/Widgets/index';
+import QuizBackground from '../src/components/QuizBackground/index';
+import Footer from '../src/components/Footer/index';
+import GitHubCorner from '../src/components/GitHubConer/index';
+import QuizLogo from '../src/components/QuizLogo/index';
 
 export const QuizContainer = styled.div`
   width: 100%;
@@ -20,16 +20,20 @@ export const QuizContainer = styled.div`
 `;
 
 export default function Quiz() {
+  const router = useRouter();
+  const { name } = router.query;
+
   return (
     <QuizBackground backgroundImage={db.bgQuizColega}>
       <QuizContainer>
-        <QuizLogo />    
+        <QuizLogo />
 
         <Widget>
           <Widget.Content>
             <h1>Quiz #1</h1>
-            <p>Em breve...</p>
-            <p><a href="/" >Voltar</a></p>
+            <p>Olá <Widget.SpanDestaque>{name}</Widget.SpanDestaque></p>
+            <p>Vamos ver se você realmente conheçe Rick And Morty. Boa sorte !!!</p>
+            <p><a href="/">Voltar</a></p>
           </Widget.Content>
         </Widget>
         <Footer />
