@@ -1,6 +1,7 @@
 import React from 'react';
 import { useRouter } from 'next/router';
 import styled from 'styled-components';
+import Head from 'next/head';
 import db from '../db.json';
 import Widget from '../src/components/Widgets/index';
 import QuizBackground from '../src/components/QuizBackground/index';
@@ -25,9 +26,13 @@ export default function Quiz() {
 
   return (
     <QuizBackground backgroundImage={db.bgQuizColega}>
+       <Head>
+        <title>
+          Rick and Morty Quiz - Desafiante {name}
+        </title>
+      </Head>
       <QuizContainer>
         <QuizLogo />
-
         <Widget>
           <Widget.Content>
             <h1>Quiz #1</h1>
