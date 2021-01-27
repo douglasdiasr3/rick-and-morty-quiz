@@ -63,7 +63,7 @@ export default function Home() {
           <Widget.Content>
             <h1>Quizes da Galera</h1>
 
-            <p><a href="quiz">Quiz do coleguinha</a></p>
+            <p>Em breve ...</p>
           </Widget.Content>
         </Widget>
         <Footer />
