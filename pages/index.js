@@ -30,6 +30,12 @@ export default function Home() {
         <title>
           Rick and Morty Quiz
         </title>
+        <meta name="description" content="Teste os seus conhecimentos sobre Rick and Morty." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://rick-and-morty-quiz.douglasdiasr3.vercel.app/" />
+        <meta property="og:title" content="Rick and Morty Quiz" />
+        <meta property="og:description" content="Teste os seus conhecimentos sobre Rick and Morty." />
+        <meta property="og:image" content="" />
       </Head>
       <QuizContainer>
         <QuizLogo />
