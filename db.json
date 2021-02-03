@@ -5,25 +5,63 @@
     "description": "Teste os seus conhecimentos sobre Rick and Morty",
     "questions": [
       {
-        "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-        "title": "Como fazer um seletor por id via CSS?",
+        "image": "https://media2.giphy.com/media/STYcRDzNO6AYNmMgvA/source.gif",
+        "title": "Quem é o Gary sonolento?",
         "description": "Essa é pra aquecer",
-        "answer": 2,
+        "answer": 3,
         "alternatives": [
-          ".elemento",
-          "*elemento",
-          "#elemento",
-          "%elemento"
+          "Primo da Summer",
+          "Amigo do Rick",
+          "Amante da Beth",
+          "Uma memória falsa amante do  Jerry"
         ]
       },
       {
-        "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-        "title": "Como fazer um background gradiente com css?",
-        "description": "Faz tempo em haha",
+        "image": "https://media.giphy.com/media/l41JU9pUyosHzWyuQ/giphy.gif",
+        "title": "Quem é Jéssica",
+        "description": "Fácil ainda",
+        "answer": 2,
+        "alternatives": [
+           "Amiga do Morty",
+           "Amiga da Summer",
+           "Crush do Morty",
+           "Irmã da Beth"
+        ]
+      },
+      {
+        "image": "https://media.giphy.com/media/l41JU9pUyosHzWyuQ/giphy.gif",
+        "title": "Quem é o bunda cagada?",
+        "description": "Lembra?",
+        "answer": 2,
+        "alternatives": [
+           "Amigo do Morty",
+           "Amigo da Summer",
+           "Amigo da família de uma realidade alternativa",
+           "Um parasita invasor"
+        ]
+      },
+      {
+        "image": "https://media.giphy.com/media/l41JU9pUyosHzWyuQ/giphy.gif",
+        "title": "Quantos universos existem dentro da bateria da nave do Rick",
+        "description": "Lembra?",
         "answer": 0,
         "alternatives": [
-           "background: linear-gradient(#e66465, #9198e5);",
-           "background: gradient(#e66465, #9198e5);"
+           "3",
+           "2",
+           "1",
+           "Nenhuma"
+        ]
+      },
+      {
+        "image": "https://media.giphy.com/media/l41JU9pUyosHzWyuQ/giphy.gif",
+        "title": "Qual o método que o Morty desenvolveu para descobrir quem é ou não um parasita?",
+        "description": "Lembra?",
+        "answer": 1,
+        "alternatives": [
+           "Parasitas não são humanos comuns",
+           "Parasistas não criam memórias ruins",
+           "Parasitas são perfeitos",
+           "Parasitas são esquisitos"
         ]
       }
     ],
@@ -33,7 +71,7 @@
     "theme": {
       "colors": {
         "primary": "#4caf50",
-        "secondary": "#c6ff00",
+        "secondary": "#007bb2",
         "mainBg": "#171B35",
         "contrastText": "#FFFFFF",
         "wrong": "#FF5722",
